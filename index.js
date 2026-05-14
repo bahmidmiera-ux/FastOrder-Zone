@@ -3,8 +3,8 @@ const express = require('express');
 require('dotenv').config();
 
 const app = express();
-const bot = new Telegraf(process.env.8980866806:AAE7zZZ-0J2HdHDx-jEuPbHl6sIiPtLVfb8);
-const ADMIN_ID = process.env.6988762768; // আপনার টেলিগ্রাম আইডি
+const bot = new Telegraf(process.env.BOT_TOKEN);
+const ADMIN_ID = process.env.ADMIN_ID; // আপনার টেলিগ্রাম আইডি
 
 // সাময়িকভাবে ডেটা রাখার জন্য (প্রোডাকশনে ডাটাবেস ব্যবহার করা ভালো)
 let db = {
